@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*general settings for the body*/
+body{
+    background-color: #FAFAFA;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*general height settings for the main*/
+main{
+    height: 100vh;
+}
+
+/*general settings for the card*/
+.card{
+    background-color: #FCCAA9;
+    padding: 50px;
+    margin: 30vh;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #FCA9B1;
+    position: relative;
+}
+
+/*general settings for the image*/
+.avatar{
+    width: 150px;
+    border-radius: 50%;
+    border: 3px #A9DBFC solid;
+    display:block;
+    margin: 0 auto;
+}
+
+/*general settings for the texts*/
+.card h1, p{
+    text-align: center;
+}
+
+.card h1{
+    color: #A9B1FC;
+}
+
+.card .role{
+    color: #A9FCCA;
+}
+
+.card .bio{
+    font-size: 14px;
+}
+
+/*general settings for the social media links*/
+.social-links a{
+    text-decoration: none;
+    border: 2px #A9DBFC solid;
+    padding: 5px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.social-links a:hover{
+    background-color:#A9DBFC;
+    color: #FAFAFA;
+}
+
+/*general settings for the badge*/
+.card .badge{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: #B1FCA9;
+    color: #0B0B0B;
+    padding: 4px 10px;
+    border-radius: 999px;
+    box-shadow: 5px 5px 10px #0e5e06;
+}
