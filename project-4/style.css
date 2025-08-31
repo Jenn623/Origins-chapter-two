@@ -1,0 +1,26 @@
+/*default settings*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*settings for the main container*/
+.container{
+    position: relative;
+}
+
+/*settings for the background image*/
+.container .background-img{
+    width: 100%;
+}
+
+/*settings for the info-box*/
+.container .info-box{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 10px;
+    color: whitesmoke;
+    top: 80%; /*esto sobrepone el cuadro en la imagen*/
+}
